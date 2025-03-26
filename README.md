@@ -1,21 +1,23 @@
 <p align="right">
-   <strong>中文</strong> | <a href="./README.en.md">English</a>
+   <strong>CHN</strong> | <a href="./README.en.md">English</a>
 </p>
 <div align="center">
 
-![new-api](/web/public/logo.png)
+![oapi](/web/public/logo.png)
 
-# New API
+# OAPI
 
-🍥新一代大模型网关与AI资产管理系统
+🍥語言模型與AI資產管理系統
+ 
+ A LLM Gateway and AI Asset Management System
 
-<a href="https://trendshift.io/repositories/8227" target="_blank"><img src="https://trendshift.io/api/badge/repositories/8227" alt="Calcium-Ion%2Fnew-api | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/8227" target="_blank"><img src="https://trendshift.io/api/badge/repositories/8227" alt="eslco%2Foapi | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Calcium-Ion/new-api/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Calcium-Ion/new-api?color=brightgreen" alt="license">
+  <a href="https://raw.githubusercontent.com/Calcium-Ion/oapi/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Calcium-Ion/oapi?color=brightgreen" alt="license">
   </a>
-  <a href="https://github.com/Calcium-Ion/new-api/releases/latest">
+  <a href="https://github.com/Calcium-Ion/oapi/releases/latest">
     <img src="https://img.shields.io/github/v/release/Calcium-Ion/new-api?color=brightgreen&include_prereleases" alt="release">
   </a>
   <a href="https://github.com/users/Calcium-Ion/packages/container/package/new-api">
@@ -33,7 +35,7 @@
 ## 📝 项目说明
 
 > [!NOTE]  
-> 本项目为开源项目，在[One API](https://github.com/songquanpeng/one-api)的基础上进行二次开发
+> 本项目为开源项目，創新開發在[**One API**](https://github.com/songquanpeng/one-api) & [**New API**](https://github.com/Calcium-Ion/new-api) 的基础上进行
 
 > [!IMPORTANT]  
 > - 本项目仅供个人学习使用，不保证稳定性，且不提供任何技术支持。
@@ -42,7 +44,7 @@
 
 ## 📚 文档
 
-详细文档请访问我们的官方Wiki：[https://docs.newapi.pro/](https://docs.newapi.pro/)
+详细文档请访问官方Wiki：[https://docs.newapi.pro/](https://docs.newapi.pro/)
 
 ## ✨ 主要特性
 
@@ -130,14 +132,14 @@ New API提供了丰富的功能，详细特性请参考[特性说明](https://do
 ### 部署方式
 
 #### 使用宝塔面板Docker功能部署
-安装宝塔面板（**9.2.0版本**及以上），在应用商店中找到**New-API**安装即可。
+安装宝塔| **aaPanel**（**9.2.0版本**及以上），在应用商店中找到**OAPI**安装即可。
 [图文教程](BT.md)
 
 #### 使用Docker Compose部署（推荐）
 ```shell
 # 下载项目
-git clone https://github.com/Calcium-Ion/new-api.git
-cd new-api
+git clone https://github.com/eslco/oapi.git
+cd oapi
 # 按需编辑docker-compose.yml
 # 启动
 docker-compose up -d
@@ -177,7 +179,7 @@ docker run --name new-api -d --restart always -p 3000:3000 -e SQL_DSN="root:1234
 
 其他基于New API的项目：
 - [new-api-horizon](https://github.com/Calcium-Ion/new-api-horizon)：New API高性能优化版
-- [VoAPI](https://github.com/VoAPI/VoAPI)：基于New API的前端美化版本
+- [🌟VoAPI](https://github.com/VoAPI/VoAPI)：基于New API的前端美化版本
 
 ## 帮助支持
 
@@ -188,4 +190,10 @@ docker run --name new-api -d --restart always -p 3000:3000 -e SQL_DSN="root:1234
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Calcium-Ion/new-api&type=Date)](https://star-history.com/#Calcium-Ion/new-api&Date)
+<a href="https://www.star-history.com/#Calcium-Ion/new-api&songquanpeng/one-api&eslco/oapi&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Calcium-Ion/new-api,songquanpeng/one-api,eslco/oapi&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Calcium-Ion/new-api,songquanpeng/one-api,eslco/oapi&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Calcium-Ion/new-api,songquanpeng/one-api,eslco/oapi&type=Date" />
+ </picture>
+</a>
